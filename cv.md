@@ -6,7 +6,7 @@
 *+48 797 377 535 (__Poland__)*       
 *+375 44 587 39 98 (__Belarus__)*  
 ### About myself:    
-I work as **an architect**. I like to learn something new about design, but I have never worked as **a web designer**. I want to finish courses to work as **a web designer**.
+*I work as **an architect**. I like to learn something new about design, but I have never worked as **a web designer**. I want to finish courses to work as **a web designer**.*
 ### Skills:
 * **CSS, HTML** - Basic
 * **JavaScript** -Basic
@@ -29,7 +29,7 @@ function isPalindrome(line) {
 }
 ```  
 ### Work experience:
-I work as an architect-designer.
+*I work as an architect-designer.*
 ### Education:
 1. The Belarusian National Technical University, 2011-2017, architect;
 1. Free Yandex CSS and HTML courses;
