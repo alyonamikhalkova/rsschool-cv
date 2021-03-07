@@ -6,18 +6,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="center">
-            <header class="cv"><b>Curriculum vitae</b></header>
-            <article>
+        <header class="cv"><b>Curriculum vitae</b></header>
+        <article class="center">
+            <section>
                 <h2 class="name"> Alyona Mikhalkova</h2>
                 <p><img class="avatar" src="alyonamikhalkova.png" alt="Alyona Mikhalkova"/></p>
-            </article>
-            <footer>
+            </section>
+            <section>
                 <h3 class="content">Contacts: </h3>
-                <p class="incline">+48 797 377 535 (<b>Poland</b>)<br>
-                +375 44 587 39 98 (<b>Belarus</b>)</p>
-            </footer>
-            <section class="center">
+                <ul>
+                    <li>+48 797 377 535 (<b>Poland</b>)</li>
+                    <li> +375 44 587 39 98 (<b>Belarus</b>)</li>
+                </ul>
+            </section>
+            <section>
                 <h3 class="content">About myself:</h3>
                 <p class="incline">I work as <b>an architect</b>. I like to learn something new about design, but I have never worked as <b>a web designer</b>. I <br>
                 want to finish courses to work as <b>a web designer</b>.</p>
@@ -37,8 +39,16 @@
             </section>
             <section>
                 <h3 class="content">Work experience:</h3>
-                <p class="incline">I work as an architect-designer.</p>
+                <ol>
+                    <li>Bureau of Architecture, 2017, 3d modeler</li>
+                    <li>Belzheldorproject, 2018-2021, architect-designer</li>
+                </ol>
             </section>
+            <details>
+                <summary class="content"></summary>
+                <p class="incline"> I created 3d models in 3d-max and loaded them with Unreal-Engine in an architectural bureau. I worked as <br>
+                    an architect-designer on projects of buildings and structures in Belzheldorproekt. Made 3d models in 3d-max. Worked with documentation. </p>
+            </details>
             <section>
                 <h3 class="content">Education:</h3>
                 <ol>
@@ -51,6 +61,11 @@
                 <h3 class="content">English:</h3>
                 <p class="incline">A2-</p>
             </section>
-        </div>
+        </article>
+    <footer class="incline">
+        <a href="https://github.com/alyonamikhalkova/rsschool-cv/tree/rsschool-cv-html">Link to Github</a><br>
+        <p>2021</p>
+        <p><img class="rs_school" src="rs_school_js.svg" alt="RS.school"></p>
+        <a href="https://rs.school/js/">Link to RS.school</a>
     </body>
 </html>
