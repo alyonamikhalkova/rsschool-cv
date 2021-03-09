@@ -1,0 +1,45 @@
+.center {
+    width: 850px;
+    border: 1px solid blanchedalmond;
+    margin: auto;
+}
+.name,
+.content {
+   background-color: blanchedalmond;
+    text-align: center;
+    border: 1px solid rosybrown;
+}
+ul,
+ol {
+    font-style: italic;
+    list-style-position: inside;
+}
+.incline{
+    font: normal 15px "Helvetica Neue", sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.cv {
+    font: normal 27px "Helvetica Neue", sans-serif;
+    line-height:1.5;
+    text-align: center;
+}
+.avatar {
+    width: 120px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rs_school {
+    width: 80px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.code {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
